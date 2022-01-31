@@ -12,33 +12,33 @@ body{
 
 }
 .bg-black{
-    background: #000
+    background: rgb(31, 134, 0)
 }
 /*=====Slider=====*/
 .carousel-item{
     height: 600px;
    }
    .carousel-image-1{
-       background: linear-gradient(rbga(0,0,0,.3),rgba(0,0,0,.4)),
-       url('./Images/hero-image.jpg');
+       background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+       url(https://cdn11.bigcommerce.com/s-l5dryyv/product_images/uploaded_images/bamboo-1.jpg);
        background-size:cover;
    }
-   carousel-image-2{
-    background: linear-gradient(rbga(0,0,0,.3),rgba(0,0,0,.4)),
-    url('./Images/image9.jpg');
+   .carousel-image-2{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+    url(https://cdn.cnn.com/cnnnext/dam/assets/191106113846-sagano-bamboo-forest-super-169.jpg);
     background-size:cover;
 }
-carousel-image-3{
-    background: linear-gradient(rbga(0,0,0,.3),rgba(0,0,0,.4)),
-    url('./Images/image1.jpg');
+.carousel-image-3{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),
+    url(https://www.westend61.de/images/0000692421pw/japan-honshu-kyoto-arashiyama-bamboo-forest-THAF001452.jpg);
     background-size:cover;
 }
 .title-color{
     color:#fff
 }
 .btn-color{
-    background:#000;
-    color:grey;
+    background:rgb(31, 134, 0);
+    color:rgb(0, 0, 0);
 }
 .btn-color:hover{
     color:#fff
@@ -91,10 +91,10 @@ carousel-image-3{
 /*=========end of Service SEction=========*/
 /*====Product Section====*/
 #products{
-    background:#000
+    background:rgb(31, 134, 0);
 }
 .product-title{
-    color:#fff
+    color:#fff;
 }
 .single-item{
     display: inline-block;
