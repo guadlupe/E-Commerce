@@ -4,8 +4,9 @@
     <title>PHP assignments</title>
 </head>
 
-<a href=/calculator.php>Calculator!</a>
-<a href=/calendar.php>Calendar!</a>
+<?php
+    include 'header.php';
+?>
 
 <body>
 <h1>What's your favorite verb?</h1>
